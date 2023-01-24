@@ -1,0 +1,17 @@
+
+.block1 {
+    background:black;
+}
+.block2 {
+    background:#3d87c4;
+}
+div {
+    border: 1px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    float: left;
+}
+div:hover {
+    background: orange;
+}
