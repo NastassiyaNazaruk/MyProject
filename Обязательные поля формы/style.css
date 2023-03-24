@@ -1,0 +1,92 @@
+input + span {
+    position: relative;
+  }
+  
+  input + span::before {
+    position: absolute;
+    right: -20px;
+    top: 0px;
+  }
+    
+  input:invalid + span::before {
+    content: "✖";
+    color: red;
+  }
+  
+  input:valid + span::before {
+    content: "✓";
+    color: green;
+  }
+  .number{
+    width: 3em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #test {
+    background-color: #4E8DF5;
+    color: #ffffff;
+    padding: 15px;
+    margin: 15px;
+    border: 7px solid #D85346; */
+/* } */
+
+
+
+/* a {
+    color:red;
+    font-size:13px;
+}
+
+div {
+    color:orange;
+} */
+
+/* #moya_ssilka {
+    color:green;
+}
+
+#testovaya_ssilka {
+    font-size: 20px;
+    color: purple;
+}
+
+.human{
+    color: blue;
+}
+
+.animal{
+    color: yellow;
+}
+
+.lion{
+    color: orange;
+} */
